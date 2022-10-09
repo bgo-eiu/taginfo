@@ -3,52 +3,52 @@ osm:
     tags: ٹیگ
     key: کنجی
     keys: کنجیاں
-    value: Value
-    values: Values
+    value: مُل
+    values: مُل
     node: نوڈ
     nodes: نوڈ
     way: راہ
     ways: راہ
-    relation: Relation
-    relations: Relations
-    relation_type: Relation type
-    relation_types: Relation types
-    relation_member: Relation member
-    relation_members: Relation members
-    relation_member_nodes: Member nodes
-    relation_member_ways: Member ways
-    relation_member_relations: Member relations
+    relation: سمبندھ
+    relations: سمبندھاں
+    relation_type: سمبندھ دی قسم
+    relation_types: سمبندھ دیاں قسماں
+    relation_member: سمبندھ دا میمبر
+    relation_members: سمبندھ دے میمبر
+    relation_member_nodes: میمبراں دے نوڈ
+    relation_member_ways: میمبراں دے راہ
+    relation_member_relations: میمبراں دیاں سمبندھاں
     relation_member_role: Role
     relation_member_roles: Roles
     object: چیز
     objects: چیزاں
-    all: All
-    user: ورتونوالا
-    users: ورتونوالے
+    all: سارے
+    user: ورتنوالا
+    users: ورتنوالے
 
 taginfo:
     source: سروت
     sources: سروت
-    download: ڈاؤنلوڈ
+    download: ڈاؤنلوڈ کرو
     about: بارے
     contact: Contact
     meta: میٹا
     wiki: وِکی
-    report: Report
-    reports: Reports
+    report: رہورٹ
+    reports: رپورٹاں
     international: International
     apidoc: API Documentation
     project: پروجیکٹ
     projects: پروجیکٹ
     test: Test
-    chronology: Chronology
+    chronology: تریخ واری
     map: نقشہ
     maps: نقشے
     relations: Relations
     combinations: Combinations
     key_combinations: Combinations
     comparison: Key/Tag Comparison
-    overview: Overview
+    overview: عام تفصیل
     characters: Characters
     links: کڑیاں
     data_from: Data from
@@ -64,9 +64,9 @@ misc:
     count: Count
     image: تصویر
     no_image: تصویر نہیں
-    all: All
-    object_type: قِسم
-    description: Description
+    all: سارے
+    object_type: قسم
+    description: تفصیل
     help: مدد
     length: Length
     icon: Icon
@@ -135,18 +135,18 @@ help:
 
 pages:
     not_found:
-        title: Not found
-        intro: Sorry, we could not find the page you were looking for.
+        title: صفحہ نہیں لبھیا
+        intro: افسوس، ایہہ صفحہ لبھ نہیں سکیا
     index:
-        popular_keys: Some popular keys
+        popular_keys: کجھ عام کنجیاں
         keys:
-            listkeys: See all keys...
+            listkeys: ساریاں کنجیاں ویکھیو…
         tags:
             listtags: See most common tags...
         relations:
-            listrelations: See all relation types...
+            listrelations: ساریاں سمبندھ دی قسماں ویکھیو…
         reports:
-            listreports: See all reports...
+            listreports: ساریاں رپورٹاں ویکھیو…
         about:
             intro:
                 <p>OpenStreetMap uses <b>tags</b> of the form <b>key=value</b>
@@ -176,7 +176,7 @@ pages:
                 how they are used and what they mean. See a <a href="sources">list of sources</a>
                 taginfo uses.</p>
         about_site:
-            title: ویب سائیٹ بارے
+            title: ویب‌سائیٹ بارے
         building_on_taginfo:
             title: Building on taginfo
             pre: |
@@ -398,7 +398,7 @@ pages:
         characters:
             title: Unicode characters in this tag value
     relation:
-        name: Relation type
+        name: سمبندھ دی قسم
         description_from_wiki: Description of this relation type from the wiki (if available in your chosen language, otherwise in English).
         no_description_in_wiki: No English language description for this relation type in the wiki. (See also the "Wiki" tab.)
         button_disabled: Button disabled, because there are too many objects with this relation type.

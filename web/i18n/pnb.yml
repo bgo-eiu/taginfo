@@ -18,8 +18,8 @@ osm:
     relation_member_nodes: میمبراں دے نوڈ
     relation_member_ways: میمبراں دے راہ
     relation_member_relations: میمبراں دیاں سمبندھاں
-    relation_member_role: Role
-    relation_member_roles: Roles
+    relation_member_role: رول
+    relation_member_roles: رول
     object: چیز
     objects: چیزاں
     all: سارے
@@ -31,31 +31,31 @@ taginfo:
     sources: سروت
     download: ڈاؤنلوڈ کرو
     about: بارے
-    contact: Contact
+    contact: مینوں سنیہا بھیجو
     meta: میٹا
     wiki: وِکی
     report: رہورٹ
     reports: رپورٹاں
-    international: International
-    apidoc: API Documentation
+    international: قومانتری
+    apidoc: دستاویز لئی اےپی‌آئی
     project: پروجیکٹ
     projects: پروجیکٹ
-    test: Test
+    test: امتحان
     chronology: تریخ واری
     map: نقشہ
     maps: نقشے
-    relations: Relations
-    combinations: Combinations
-    key_combinations: Combinations
-    comparison: Key/Tag Comparison
+    relations: سمبندھ
+    combinations: سنجوگ
+    key_combinations: سنجوگ
+    comparison: کنجی تے ٹیگ دی تُلنا
     overview: عام تفصیل
-    characters: Characters
+    characters: اکھر
     links: کڑیاں
-    data_from: Data from
+    data_from: ڈئیٹا نوں
     data_from_description: Last update of taginfo database
     instance:
-        title: About this taginfo site
-        other: See the <a href="//wiki.openstreetmap.org/wiki/Taginfo/Sites">OSM wiki</a> for other sites.
+        title: ایس ٹیگ‌اینفو سائیٹ بارے
+        other: <a href="//wiki.openstreetmap.org/wiki/Taginfo/Sites">وِکی</a> تے حور ویکھو۔
 
 misc:
     values_less_than_one_percent: no values with more than 1%

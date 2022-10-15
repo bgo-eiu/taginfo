@@ -52,7 +52,7 @@ taginfo:
     characters: اکھر
     links: کڑیاں
     data_from: ڈئیٹا نوں
-    data_from_description: Last update of taginfo database
+    data_from_description: سبھ توں تازہ
     instance:
         title: ایس ٹیگ‌اینفو سائیٹ بارے
         other: <a href="//wiki.openstreetmap.org/wiki/Taginfo/Sites">وِکی</a> تے حور ویکھو۔
@@ -69,7 +69,7 @@ misc:
     description: تفصیل
     help: مدد
     length: Length
-    icon: Icon
+    icon: آئیکون
     line: لائین
     area: کھیتر
     language: بولی
@@ -280,11 +280,11 @@ pages:
         list: List of all reports
         data_sources: Data sources used
     search:
-        title: Search results
-        you_were_searching_for: You were searching for
-        fulltext: Full text
+        title: نتیجے
+        you_were_searching_for: تہاڈے کھوج
+        fulltext: ساری لکھت
         no_keys: کنجیاں نہیں
-        no_values: No values found.
+        no_values: مُل نہیں لبھے۔
         no_tags: ٹیگ نہیں
         no_match: No matches.
     compare:
@@ -342,7 +342,7 @@ pages:
             title: Wiki pages about this key
             none_found: No wiki page available for this key.
             create: Create wiki page for this key
-            wiki_page: Wiki page
+            wiki_page: وِکی تے صفحہ
             implied_tags: Implied Tags
             combined_tags: Combined Tags
             linked_tags: Linked Tags
@@ -388,7 +388,7 @@ pages:
             none_found: No wiki page available for this tag.
             create: Create wiki page for this tag
             suggest_key_wiki_page: Maybe you can find some more information on the wiki page for the key %1.
-            wiki_page: Wiki page
+            wiki_page: وِکی تے صفحہ
             implied_tags: Implied Tags
             combined_tags: Combined Tags
             linked_tags: Linked Tags
@@ -423,7 +423,7 @@ pages:
             title: Wiki pages about this relation type
             none_found: No wiki page available for this relation type.
             create: Create wiki page for this relation type
-            wiki_page: Wiki page
+            wiki_page: وِکی تے صفحہ
         projects:
             title: Projects using this relation type
             description: How this relation type is used in the project
@@ -470,14 +470,14 @@ sources:
         name: History
         description: Aggregate statistics over time.
     db:
-        name: Database
+        name: ڈیٹابیس
         description: Statistics about each key and each tag from OSM data.
     wiki:
-        name: Wiki
+        name: وِکی
         description: Data from the tag and key pages of the OSM wiki.
     languages:
-        name: Languages
-        description: Language names, codes, etc. from IANA and Unicode registries.
+        name: بولیاں
+        description: آئی‌اےاین‌اے تے یونیکوڈ توں بولیاں دے کوڈ تے ناں Language names, codes, etc. from IANA and Unicode registries.
     projects:
         name: Projects
         description: External projects and the OSM keys/tags they use.
@@ -486,9 +486,9 @@ sources:
         description: Number of keys/tags over time from OSM history data.
 
 unicode:
-    character: Char
+    character: اکھر
     codepoint: Code point
-    script: Script
+    script: لپی
     general_category: General category
     name: Unicode code point name
 
@@ -566,7 +566,7 @@ reports:
                 and should be fixed.</p>
         rest:
             tab: ہور
-            title: All other keys
+            title: ہور ساریاں کنجیاں
             intro: |
                 <p>Keys that don't fit in any of the other categories.</p>
     database_statistics:
@@ -639,7 +639,7 @@ reports:
             instance in the database. This is not necessarily an error (maybe somebody
             added the documentation in the wiki as preparation for using a key or the wiki
             page documents a now obsolete key), but it can also be a typo or other error.
-        wiki_pages: Wiki pages
+        wiki_pages: وِکی تے صفحے
     name_tags:
         name: Variants of name tags
         intro: |
